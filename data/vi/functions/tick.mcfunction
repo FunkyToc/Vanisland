@@ -1,0 +1,1 @@
+execute if entity @a if score McVersion fktool matches 11602.. run function vi:loop
