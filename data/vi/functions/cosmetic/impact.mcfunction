@@ -12,5 +12,3 @@ effect give @e[distance=..8,type=!minecraft:player] minecraft:instant_damage 1 0
 effect give @e[distance=..3,type=!minecraft:player] minecraft:instant_damage 1 2 true
 effect give @a[distance=0.1..3] minecraft:instant_damage 1 1 true
 tp @a[distance=..6] ~ ~-0.8 ~ ~ 60
-
-effect clear @s minecraft:resistance

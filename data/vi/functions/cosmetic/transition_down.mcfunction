@@ -1,4 +1,4 @@
-tag @s add VI_falling
+execute unless predicate fktool:entity/flying run tag @s add VI_falling
 effect give @s minecraft:blindness 2 0 true
 effect give @s minecraft:resistance 20 9 true
 playsound minecraft:item.elytra.flying ambient @s ~ ~ ~ 0.1 2
