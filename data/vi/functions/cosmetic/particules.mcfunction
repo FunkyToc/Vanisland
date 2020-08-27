@@ -1,3 +1,5 @@
+execute as @a[tag=VI_particules,predicate=fktool:location/in_over] at @s run playsound minecraft:entity.phantom.flap player @a[distance=..32] ~ ~ ~ 8 0.5
+
 execute as @a[tag=VI_particules,predicate=fktool:location/in_over] at @s run particle minecraft:falling_water ~ ~-2 ~ 0.6 0.6 0.6 0.001 10
 execute as @a[tag=VI_particules,predicate=fktool:location/in_over] at @s run particle minecraft:cloud ~ ~0.5 ~ 0.6 0.6 0.6 0.001 50
 
