@@ -109,7 +109,7 @@
     "bottom_slide": {
       "target": -30,
       "size": 7,
-      "offset": 1
+      "offset": -2
     },
     "size_horizontal": 2,
     "size_vertical": 1,
