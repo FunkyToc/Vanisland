@@ -103,16 +103,13 @@
     }
   },
   "noise": {
+    "random_density_offset": false,
+    "amplified": false,
     "density_factor": 0.0,
     "density_offset": 0.0,
     "simplex_surface_noise": true,
-    "bottom_slide": {
-      "target": -30,
-      "size": 7,
-      "offset": -2
-    },
     "size_horizontal": 2,
-    "size_vertical": 1,
+    "size_vertical": 3,
     "height": 256,
     "sampling": {
       "xz_scale": 2.0,
@@ -121,9 +118,14 @@
       "y_factor": 160.0
     },
     "top_slide": {
-      "target": -3000,
+      "target": -300,
       "size": 64,
       "offset": -50
+    },
+    "bottom_slide": {
+      "target": -30,
+      "size": 7,
+      "offset": -2
     }
   },
   "default_block": {
