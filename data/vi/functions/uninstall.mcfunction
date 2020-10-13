@@ -1,4 +1,4 @@
-scoreboard players remove VI_ypos
+scoreboard players remove VI_option
 
 function fktool:uninstall
 
