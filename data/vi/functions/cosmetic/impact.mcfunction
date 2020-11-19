@@ -6,8 +6,8 @@ playsound minecraft:entity.zombie.attack_wooden_door player @a[distance=..32] ~ 
 playsound minecraft:entity.lightning_bolt.impact player @a[distance=..32] ~ ~ ~ 1 0.5
 playsound minecraft:block.soul_soil.fall player @a[distance=..32] ~ ~ ~ 2 0.5
 playsound minecraft:block.bone_block.step player @a[distance=..32] ~ ~ ~ 3 0.5
-effect give @e[distance=..3,type=!minecraft:player] minecraft:instant_damage 1 2 true
-effect give @e[distance=..8,type=!minecraft:player] minecraft:instant_damage 1 0 true
+effect give @e[distance=..3,type=!minecraft:player] minecraft:instant_damage 1 3 true
+effect give @e[distance=..8,type=!minecraft:player] minecraft:instant_damage 1 1 true
 effect give @a[distance=0.01..3] minecraft:instant_damage 1 1 true
 effect give @a[distance=..3] minecraft:jump_boost 3 128 true
 effect give @a[distance=..6] minecraft:slowness 3 4 true
