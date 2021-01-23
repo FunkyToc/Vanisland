@@ -1,5 +1,5 @@
 # Vanisland
-A Minecraft Datapack to add blood, bleedings, suffocations and broken bones. It's pure cosmetics.
+A Minecraft data pack to play in a world made of island... Keep watching your steps all the time !
 
 # Requires 
 - Minecraft 1.16.2+
